@@ -1,0 +1,22 @@
+{
+    "q0": 
+        {
+            "type": "start",
+            "next_a": "q1",
+            "next_b": "q2"
+        },
+    
+    "q1": 
+        {
+            "type": "accept",
+            "next_a": "q1",
+            "next_b": "q1"
+        },
+
+    "q2": 
+        {
+            "type": "reject",
+            "next_a": "q2",
+            "next_b": "q2"
+        }
+}

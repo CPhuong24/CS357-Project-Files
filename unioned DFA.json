@@ -1,0 +1,33 @@
+{
+      "q0q0": {
+            "start": "true",
+            "type": "accept",
+            "next_a": "q1q0",
+            "next_b": "q2q1"
+      },
+      "q0q1": {
+            "type": "reject",
+            "next_a": "q1q1",
+            "next_b": "q2q0"
+      },
+      "q1q0": {
+            "type": "accept",
+            "next_a": "q1q0",
+            "next_b": "q1q1"
+      },
+      "q1q1": {
+            "type": "accept",
+            "next_a": "q1q1",
+            "next_b": "q1q0"
+      },
+      "q2q0": {
+            "type": "accept",
+            "next_a": "q2q0",
+            "next_b": "q2q1"
+      },
+      "q2q1": {
+            "type": "reject",
+            "next_a": "q2q1",
+            "next_b": "q2q0"
+      }
+}

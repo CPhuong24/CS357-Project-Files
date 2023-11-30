@@ -1,7 +1,8 @@
 {
     "q0": 
         {
-            "type": "start",
+            "start": "true",
+            "type": "reject",
             "next_a": "q1",
             "next_b": "q2"
         },
@@ -18,5 +19,5 @@
             "type": "reject",
             "next_a": "q2",
             "next_b": "q2"
-        }
+        }  
 }

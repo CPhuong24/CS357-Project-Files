@@ -1,16 +1,16 @@
 {
-    "q0": [
+    "q0": 
         {
-            "type": ["start", "accept"],
+            "start": "true",
+            "type": "accept",
             "next_a": "q0",
             "next_b": "q1"
-        }
-    ],
-    "q1": [
+        },
+
+    "q1": 
         {
             "type": "reject",
             "next_a": "q1",
             "next_b": "q0"
         }
-    ]
 }
